@@ -5,7 +5,7 @@ authors = ["Brett Mayson <brett@mayson.io>"]
 edition = "2018"
 
 [dependencies]
-armake2 = {git = "https://github.com/synixebrett/armake2", branch = "restructure", default_features = false}
+armake2 = {git = "https://github.com/jokoho48/armake2", branch = "preprocessorif", default_features = false}
 bisign = {git = "https://github.com/synixebrett/bisign"}
 chrono = "0.4"
 clap = "2.33"

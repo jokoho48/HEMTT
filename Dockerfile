@@ -2,8 +2,7 @@ FROM rust as build
 
 WORKDIR /usr/src/hemtt
 
-RUN apt-get update
-RUN apt-get install libssl-dev -y
+RUN apt-get update && apt-get install libssl-dev -y
 
 COPY . .
 RUN cargo build --release
