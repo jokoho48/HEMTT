@@ -24,6 +24,7 @@ fn main() {
         },
         config,
         TerminalMode::Mixed,
+        simplelog::ColorChoice::Auto,
     )
     .unwrap();
 
