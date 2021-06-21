@@ -36,7 +36,7 @@ dependencies = [
 [[package]]
 name = "armake2"
 version = "0.4.1"
-source = "git+https://github.com/jokoho48/armake2?branch=preprocessorif#cd8bfebb73079481ad32faa75d93f02bc252a06b"
+source = "git+https://github.com/jokoho48/armake2?branch=preprocessorif#ebc9a60737b65b1f0ebd66cc704f2aee03c166c0"
 dependencies = [
  "ansi_term 0.12.1",
  "byteorder",
